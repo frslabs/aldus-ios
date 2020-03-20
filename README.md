@@ -43,7 +43,7 @@ You will need a valid license to use the Aldus SDK, which can be obtained by con
 
 #### Permission
 
-In Info.plist file add following code to allow your application to access iPhone's camera:
+In Info.plist file add following code to allow your application to access iPhone's camera, microphone and location:
 ``<key>NSCameraUsageDescription</key>
 	<string>Aldus needs access to your camera to initiate the video call and verify your identity. It is completely private and secure with end to end encryption.</string> ``
 
