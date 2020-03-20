@@ -45,7 +45,13 @@ You will need a valid license to use the Aldus SDK, which can be obtained by con
 
 In Info.plist file add following code to allow your application to access iPhone's camera:
 ``<key>NSCameraUsageDescription</key>
-<string>Allow access to camera</string>``
+	<string>Aldus needs access to your camera to initiate the video call and verify your identity. It is completely private and secure with end to end encryption.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This allows Aldus to verify your physical location per Reserve Bank of Inida norms. This check is essential to proceed with the Video KYC.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This allows Aldus to verify your physical location per Reserve Bank of Inida norms. This check is essential to proceed with the Video KYC.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Aldus uses your microphone to enable audio visual call with a Bank Official. It is completely private and secure with end to end encryption.</string>``
 
 ## Installation
 
