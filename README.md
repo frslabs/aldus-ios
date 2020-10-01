@@ -12,6 +12,8 @@ Available features
 - Geo-Tagging
 - Anti-Spoof Liveliness check
 
+You can find the release history at [Changelog](CHANGELOG.md)
+
 # Table Of Content
 
 - [Prerequisite](#prerequisite)
